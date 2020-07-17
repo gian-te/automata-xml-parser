@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLTokenizer", "XMLTokenizer\XMLTokenizer.csproj", "{60B84938-1A1E-406B-822A-1035D672EB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenEnums", "TokenEnums\TokenEnums.csproj", "{97DC743C-7DF5-41D5-978A-89C835369A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexer", "Lexer\Lexer.csproj", "{B5EAD313-B8D1-4BB2-A125-CE6F19B4682D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{5EC58B29-F74B-4CF2-88F7-A2126248AF88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60B84938-1A1E-406B-822A-1035D672EB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B84938-1A1E-406B-822A-1035D672EB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B84938-1A1E-406B-822A-1035D672EB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B84938-1A1E-406B-822A-1035D672EB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DC743C-7DF5-41D5-978A-89C835369A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DC743C-7DF5-41D5-978A-89C835369A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DC743C-7DF5-41D5-978A-89C835369A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DC743C-7DF5-41D5-978A-89C835369A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EAD313-B8D1-4BB2-A125-CE6F19B4682D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EAD313-B8D1-4BB2-A125-CE6F19B4682D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EAD313-B8D1-4BB2-A125-CE6F19B4682D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EAD313-B8D1-4BB2-A125-CE6F19B4682D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC58B29-F74B-4CF2-88F7-A2126248AF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC58B29-F74B-4CF2-88F7-A2126248AF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC58B29-F74B-4CF2-88F7-A2126248AF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC58B29-F74B-4CF2-88F7-A2126248AF88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F5FB26-F969-4160-804D-417CE400629F}
+	EndGlobalSection
+EndGlobal
